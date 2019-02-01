@@ -4,7 +4,6 @@ if Mix.env() == :test do
   config :ecto_ltree, ecto_repos: [EctoLtree.TestRepo]
 
   config :ecto_ltree, EctoLtree.TestRepo,
-    adapter: Ecto.Adapters.Postgres,
     username: "postgres",
     password: "postgres",
     database: "ecto_ltree_test",
